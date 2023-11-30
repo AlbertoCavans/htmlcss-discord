@@ -44,10 +44,30 @@
   border: 2px dashed black;
 }
 
+.header__logo {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.header__nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+.header__nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
 .header > .container > .header__nav {
   flex-grow: 1;
 }
 
+.header__login {
+  display: flex;
+  justify-content: flex-end;
+}
 /* ## JUMBOTRON */
 
 .jumbotron {
