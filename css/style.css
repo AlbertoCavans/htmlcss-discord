@@ -91,11 +91,63 @@ li a {
   width: 800px;
   margin: 0 auto;
   text-align: center;
+  height: 450px;
+}
 
-  /* debug */
+h1 {
+  color: white;
+  font-size: 52px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 40px;
+  margin-top: 10px;
+}
 
-  border: 2px dashed black;
-  height: 400px;
+.jumbotron .jumbotron__content p {
+  color: white;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 15px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.jumbotron .jumbotron__content .button-l {
+  padding: 18px 40px;
+  border-radius: 36px;
+  border-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.jumbotron .jumbotron__content .button-r {
+  padding: 18px 36px;
+  border-radius: 36px;
+  border-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #23272a;
+  color: white;
+}
+
+.jumbotron .jumbotron__content .button-l .gg-arrow-down {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 22px;
+  height: 22px;
+  display: inline;
+}
+
+.jumbotron .jumbotron__content .button-l span {
+  color: rgba(255, 255, 255, 0);
 }
 
 /* ## ROWS SECTION */
