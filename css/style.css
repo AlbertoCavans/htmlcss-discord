@@ -26,7 +26,7 @@
   height: 80px;
 
   /* debug */
-  background-color: #add8e6;
+  background-color: #3161e0;
 }
 
 .header > .container {
@@ -38,10 +38,6 @@
 .header > .container > * {
   flex-basis: 200px;
   padding: 10px;
-
-  /* debug */
-  background-color: #d9a41f;
-  border: 2px dashed black;
 }
 
 .header__logo {
@@ -57,7 +53,14 @@
 
 .header__nav li {
   display: inline-block;
-  padding: 10px;
+  padding: 10px 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .header > .container > .header__nav {
@@ -68,21 +71,29 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.header__login a button {
+  padding: 8px 17px;
+  border-radius: 20px;
+  border-style: none;
+  font-weight: 600;
+}
+
 /* ## JUMBOTRON */
 
 .jumbotron {
   padding: 3rem 0;
-
-  /* debug */
-  background-color: #00008b;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
 }
 
 .jumbotron .jumbotron__content {
   width: 800px;
   margin: 0 auto;
+  text-align: center;
 
   /* debug */
-  background-color: #ee82ee;
+
   border: 2px dashed black;
   height: 400px;
 }
