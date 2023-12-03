@@ -153,7 +153,7 @@ h1 {
 /* ## ROWS SECTION */
 
 main > section {
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 main > section:nth-of-type(odd) {
@@ -175,22 +175,38 @@ main > section:nth-of-type(even) > .container {
 main > section .col-big,
 main > section .col-small {
   /* debug */
-  height: 400px;
+  height: 600px;
   border: 2px dashed black;
 }
 
 main > section .col-big {
-  flex-basis: 60%;
+  flex-basis: 55%;
 
   /* debug */
   background-color: #1e90ff;
 }
 
 main > section .col-small {
-  flex-basis: 40%;
+  flex-basis: 45%;
 
   /* debug */
   background-color: #ffc0cb;
+}
+
+main > section .col-small h2 {
+  color: black;
+  font-size: 46px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+main > section .col-small p {
+  color: black;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 main > .download > .container {
