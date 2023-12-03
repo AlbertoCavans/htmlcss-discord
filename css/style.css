@@ -218,10 +218,10 @@ main > .download .col {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  /* debug */
   height: 800px;
+  /*   debug
   background-color: #228b22;
-  border: 2px dashed black;
+  border: 2px dashed black; */
 }
 
 /* ## FOOTER */
