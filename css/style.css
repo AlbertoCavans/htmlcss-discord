@@ -219,9 +219,9 @@ main > .download .col {
   flex-direction: column;
   text-align: center;
   height: 800px;
-  /*   debug
+  /* debug */
   background-color: #228b22;
-  border: 2px dashed black; */
+  border: 2px dashed black;
 }
 
 /* ## FOOTER */
