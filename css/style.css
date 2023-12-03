@@ -119,6 +119,7 @@ h1 {
   border-radius: 36px;
   border-style: none;
   font-size: 18px;
+  color: rgb(35 39 42);
   font-weight: 600;
   margin-left: 15px;
   margin-right: 15px;
@@ -144,6 +145,7 @@ h1 {
   width: 22px;
   height: 22px;
   display: inline;
+  color: rgb(35 39 42);
 }
 
 .jumbotron .jumbotron__content .button-l span {
@@ -153,7 +155,7 @@ h1 {
 /* ## ROWS SECTION */
 
 main > section {
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 
 main > section:nth-of-type(odd) {
@@ -194,7 +196,7 @@ main > section .col-small {
 }
 
 h2 {
-  color: black;
+  color: rgb(35 39 42);
   font-size: 45px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -203,7 +205,7 @@ h2 {
 }
 
 p {
-  color: black;
+  color: rgb(35 39 42);
   font-size: 16px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -218,10 +220,48 @@ main > .download .col {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 800px;
-  /* debug */
+  height: 950px;
+  /*   debug
   background-color: #228b22;
-  border: 2px dashed black;
+  border: 2px dashed black; */
+}
+
+h3 {
+  color: rgb(35 39 42);
+  font-size: 26px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background-image: url(../img/stars.svg);
+  width: 500px;
+  align-self: center;
+}
+
+main > .download .button-l {
+  background-color: rgb(142 161 225);
+  padding: 18px 40px;
+  border-radius: 36px;
+  border-style: none;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+main > .download .col .button-l .gg-arrow-down {
+  box-sizing: border-box;
+  color: white;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 22px;
+  height: 22px;
+  display: inline;
+}
+
+main > .download .col .button-l span {
+  color: rgb(142 161 225);
 }
 
 /* ## FOOTER */
