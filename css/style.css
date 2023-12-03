@@ -174,35 +174,35 @@ main > section:nth-of-type(even) > .container {
 
 main > section .col-big,
 main > section .col-small {
-  /* debug */
   height: 600px;
-  border: 2px dashed black;
+  /*   debug
+  border: 2px dashed black; */
 }
 
 main > section .col-big {
   flex-basis: 55%;
 
-  /* debug */
-  background-color: #1e90ff;
+  /*   debug
+  background-color: #1e90ff; */
 }
 
 main > section .col-small {
   flex-basis: 45%;
 
-  /* debug */
-  background-color: #ffc0cb;
+  /*   debug
+  background-color: #ffc0cb; */
 }
 
-main > section .col-small h2 {
+h2 {
   color: black;
-  font-size: 46px;
+  font-size: 45px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-top: 30px;
   padding-bottom: 25px;
 }
 
-main > section .col-small p {
+p {
   color: black;
   font-size: 16px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -214,6 +214,10 @@ main > .download > .container {
 }
 
 main > .download .col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   /* debug */
   height: 800px;
   background-color: #228b22;
