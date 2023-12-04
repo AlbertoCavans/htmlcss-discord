@@ -333,18 +333,35 @@ main > .download .col .button-l span {
   margin: 4px;
 }
 
+/* BIG COLUMN */
+
 .footer .upper-footer > .col-big {
   width: 70%;
   display: flex;
+  height: 400px;
 
-  /* debug */
-  height: 500px;
+  /*   debug
   background-color: #20b2aa;
-  border: 2px dashed black;
+  border: 2px dashed black; */
 }
 
-.footer .col-big > .w-25 {
+/* .footer .col-big > .w-25 {
   border: 2px dashed white;
+} */
+
+.footer .col-big > .w-25 ul {
+  list-style: none;
+  color: hsl(226.73deg 58.43% 65.1%);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 30px;
+  line-height: 20px;
+}
+
+.footer .col-big > .w-25 ul li {
+  line-height: 30px;
 }
 
 .footer .bottom-footer {
